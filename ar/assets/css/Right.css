@@ -1,0 +1,121 @@
+/*this is the styling on of the about us*/
+.navbar-header{
+    float:left;
+}
+
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-header .navbar-brand img {
+        /*the below styling override the navbar styling of the boot strap in order to modifie the logo of the navbar to the right*/
+        margin-top: 5px;
+        margin-left: 138px;
+        margin-bottom: 8px;
+        width: 60px;
+    }
+    .navbar-collapse.collapse.in {
+        /*the below sttyling modifies of the nav bar on mobile view  in order to remove a hotizontal scroll bar*/
+        overflow-x: hidden !important;
+    }
+    .Awarneestitle {
+        margin-bottom: 15px;
+        font-size: 25px;
+        display: block;
+    }
+    /*the below style was added for the quote name */
+    .quoteName {
+        font-size: 16px;
+    }
+    .borderd .text {
+        padding-top: 0 !important;
+        margin-top: 15px;
+    }
+    .btn-large {
+        font-size: 15px;
+        padding: 8px 40px;
+    }
+    .repostion{
+        padding: 90;
+    }
+    .QouteText {
+        font-size: 18px;
+        padding: 0;
+    }
+     /*the below style was added for the awarness title for the line 111 in the DOM*/
+     .borderd {
+        padding: 0;
+    }
+}
+
+/*End of the styling on of the about us*/
+
+    /*Connect Page Styling*/
+    @media (max-width: 767px) {
+    .theSendBtn{
+        /*this is for the botten on the connect page*/
+       box-sizing: border-box;
+       width: 185px;
+    }
+
+
+}
+
+.contact-us-connect .text {
+    /*the text of the connect us styiling*/
+    top: 145px;
+}
+
+/*learn vsense styling*/
+@media (max-width: 767px) {
+    .title {
+        text-align: center !important;
+        display: block;
+        border-bottom: 2px solid;
+        padding: 0 0 15px;
+    }
+    .text {
+        font-size: 16px;
+    }
+    .rightText{
+        text-align: justify;
+    }
+    .listStylePos{
+        padding-right: 20px;
+    }
+}
+
+.learn-how-does .margin-top {
+    margin-top: 100px;
+}
+.rightText{
+    text-align: justify;
+}
+.centeredTitle{
+    position: relative;
+    left: 12em;
+}
+
+.learn-how-does .title {
+    text-align: right;
+}
+
+.listStylePos{
+    padding-right: 25px;
+}
+
+/*Turn life on styling*/
+.what-vesence .center-div {
+    margin-bottom: 30px;
+}
+
+/*Index Styling*/
+
+.forSurvayCarousal{
+    direction: ltr;
+}
+
+
+@media (max-width: 767px) {
+    .btnModification{
+        margin-top: 20px;
+    }
+}
